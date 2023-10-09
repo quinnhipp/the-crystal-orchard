@@ -2,7 +2,7 @@ import { Headset, YouTube, Apple, Facebook } from "@mui/icons-material";
 
 const Socials = () => {
   return (
-    <div className="flex gap-x-3">
+    <div className="flex gap-x-3 mt-3 md:mt-8">
       <Headset />
       <a href="https://youtube.com/markiplier" target="_blank">
         <YouTube />
