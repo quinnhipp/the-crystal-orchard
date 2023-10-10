@@ -11,26 +11,55 @@ import Socials from "./socials";
 //   { title: "Gallery", href: "gallery" },
 // ];
 
-const Navbar = () => {
+const Navbar = ({ activePage }: { activePage: string }) => {
   return (
     <div className="flex md:gap-x-16">
-      <div className="hidden md:flex md:gap-x-16 mt-8">
-        <a href="/" className="active: text-blue-400">
-          <div>Home</div>
-        </a>
-        <Link href="/band">
-          <div>The Band</div>
-        </Link>
-        <a href="listen">
-          <div>Listen</div>
-        </a>
-        <a href="tour">
-          <div>Tour Dates</div>
-        </a>
-        <a href="gallery">
-          <div>Gallery</div>
-        </a>
-      </div>
+      <ul className="hidden md:flex md:gap-x-16 mt-8">
+        <li>
+          <Link
+            href="/"
+            className={activePage === "Home" ? "text-blue-400" : "text-white"}
+          >
+            <div>Home</div>
+          </Link>
+        </li>
+        <li>
+          <Link
+            href="/band"
+            className={
+              activePage === "The Band" ? "text-blue-400" : "text-white"
+            }
+          >
+            <div>The Band</div>
+          </Link>
+        </li>
+        <li>
+          <Link
+            href="/listen"
+            className={activePage === "Listen" ? "text-blue-400" : "text-white"}
+          >
+            <div>Listen</div>
+          </Link>
+        </li>
+        <li>
+          <Link
+            href="/gigs"
+            className={activePage === "Gigs" ? "text-blue-400" : "text-white"}
+          >
+            <div>Gigs</div>
+          </Link>
+        </li>
+        <li>
+          <Link
+            href="/gallery"
+            className={
+              activePage === "Gallery" ? "text-blue-400" : "text-white"
+            }
+          >
+            <div>Gallery</div>
+          </Link>
+        </li>
+      </ul>
       <Socials />
     </div>
   );

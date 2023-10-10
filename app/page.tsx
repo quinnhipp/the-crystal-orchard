@@ -1,5 +1,5 @@
 "use client";
-import Home from "./pages/home";
+import Home from "./home/page";
 import Navbar from "./components/navbar";
 import { MuiThemeProvider, createTheme } from "@material-ui/core/styles";
 
