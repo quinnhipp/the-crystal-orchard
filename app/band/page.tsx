@@ -4,12 +4,12 @@ import MobileNav from "../components/mobileNav";
 import Navbar from "../components/navbar";
 import guitar from "../../public/guitar.jpg";
 import Link from "next/link";
+import Footer from "../components/footer";
 
 const Band = () => {
   return (
     <div>
       <div className="h-auto md:h-screen w-screen flex flex-col items-center justify-between z-0">
-        {/* <Link href="/band"> */}
         <div>
           <Navbar activePage="The Band" />
           <div className="flex z-10 justify-center items-center flex-col mt-3 md:mt-8 mb-10">
@@ -57,7 +57,7 @@ const Band = () => {
                   series created by Leslie Greif and Paul Haggis.
                 </p>
               </div>
-              <div className="mt-8 pb-16 md:w-1/5">
+              <div className="mt-8 md:w-1/5">
                 <p className="text-[#7E84F7] text-xl">Josiah the Messiah</p>
                 <p className="text-[#7E84F7] text-lg">// bass</p>
                 <p className="text-base mt-3">
@@ -69,6 +69,7 @@ const Band = () => {
             </div>
           </div>
         </div>
+        <Footer />
       </div>
       <MobileNav activePage="The Band" />
     </div>
