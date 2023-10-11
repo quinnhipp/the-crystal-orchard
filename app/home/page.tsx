@@ -1,3 +1,4 @@
+"use client";
 import { Button, TextField } from "@mui/material";
 import Navbar from "../components/navbar";
 import Image from "next/image";
