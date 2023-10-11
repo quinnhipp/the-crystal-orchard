@@ -10,7 +10,7 @@ const Gigs = () => {
         {/* <Link href="/gigs"> */}
         <div>
           <Navbar activePage="Gigs" />
-          Gigs
+          Gigs hi
         </div>
         {/* </Link> */}
       </div>
