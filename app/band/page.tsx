@@ -3,7 +3,6 @@ import Image from "next/image";
 import MobileNav from "../components/mobileNav";
 import Navbar from "../components/navbar";
 import guitar from "../../public/guitar.jpg";
-import "@fontsource/roboto";
 import Link from "next/link";
 
 const Band = () => {
