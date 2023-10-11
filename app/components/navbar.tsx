@@ -3,17 +3,9 @@ import Link from "next/link";
 import { Headset, YouTube } from "@mui/icons-material";
 import Socials from "./socials";
 
-// const navElements = [
-//   { title: "Home", href: "" },
-//   { title: "The Band", href: "band" },
-//   { title: "Listen", href: "listen" },
-//   { title: "Gig Dates", href: "gigs" },
-//   { title: "Gallery", href: "gallery" },
-// ];
-
 const Navbar = ({ activePage }: { activePage: string }) => {
   return (
-    <div className="flex md:gap-x-16">
+    <div className="flex md:gap-x-16 justify-center">
       <ul className="hidden md:flex md:gap-x-16 mt-8">
         <li>
           <Link
