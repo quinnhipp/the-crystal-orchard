@@ -2,6 +2,7 @@ import { Button, TextField } from "@mui/material";
 import Navbar from "../components/navbar";
 import Image from "next/image";
 import logo from "../../public/Crystal_Orchard_logo.png";
+import MobileNav from "../components/mobileNav";
 
 const Home = () => {
   return (
@@ -40,6 +41,7 @@ const Home = () => {
           <Button className="bg-[#6FF78B] text-black">Subscribe Now</Button>
         </div>
       </div>
+      <MobileNav activePage="Home" />
     </div>
   );
 };
