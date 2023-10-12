@@ -22,16 +22,16 @@ const Band = () => {
             <div className="md:flex gap-8 justify-between">
               <div className="mt-8 md:w-1/5">
                 <p className="text-[#7E84F7] text-xl">Brendan Hipp</p>
-                <p className="text-[#7E84F7] text-lg">// vocals</p>
+                <p className="text-[#7E84F7] text-lg">
+                  // vocals & rhythm guitar
+                </p>
                 <p className="text-base mt-3">
                   Our metal fan of the group. Self taught vocalist of 15 years.
                 </p>
               </div>
               <div className="mt-8 md:w-1/5">
-                <p className="text-[#7E84F7] text-xl">
-                  Marcus Mark & the Funky Bunch
-                </p>
-                <p className="text-[#7E84F7] text-lg">// rhythm guitar</p>
+                <p className="text-[#7E84F7] text-xl">Marcus McBride</p>
+                <p className="text-[#7E84F7] text-lg">// keyboard</p>
                 <p className="text-base mt-3">
                   Marky Mark and the Funky Bunch was an American hip-hop group
                   formed in 1991 by Mark Wahlberg, Scott Gee, Hector the Booty
@@ -39,7 +39,7 @@ const Band = () => {
                 </p>
               </div>
               <div className="mt-8 md:w-1/5">
-                <p className="text-[#7E84F7] text-xl">Harrison Ford</p>
+                <p className="text-[#7E84F7] text-xl">Harrison Dalton</p>
                 <p className="text-[#7E84F7] text-lg">// lead guitar</p>
                 <p className="text-base mt-3">
                   Harrison Ford is an American actor. He has been a leading man
@@ -48,9 +48,7 @@ const Band = () => {
                 </p>
               </div>
               <div className="mt-8 md:w-1/5">
-                <p className="text-[#7E84F7] text-xl">
-                  Lucas Walker - Texas Ranger
-                </p>
+                <p className="text-[#7E84F7] text-xl">Lucas McLaughlin</p>
                 <p className="text-[#7E84F7] text-lg">// drums</p>
                 <p className="text-base mt-3">
                   Walker, Texas Ranger is an American action crime television
@@ -58,7 +56,7 @@ const Band = () => {
                 </p>
               </div>
               <div className="mt-8 md:w-1/5">
-                <p className="text-[#7E84F7] text-xl">Josiah the Messiah</p>
+                <p className="text-[#7E84F7] text-xl">Josiah Meyer</p>
                 <p className="text-[#7E84F7] text-lg">// bass</p>
                 <p className="text-base mt-3">
                   Originating from the concept in Judaism, the messiah in
