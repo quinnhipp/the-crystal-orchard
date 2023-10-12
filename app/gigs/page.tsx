@@ -8,12 +8,24 @@ const Gigs = () => {
   return (
     <div>
       <div className="h-auto md:h-screen w-screen flex flex-col items-center justify-between z-0">
-        <div>
+        <div className="mb-10">
           <Navbar activePage="Gigs" />
-          <div className="m-5 font-sans">
+          <div className="font-sans">
             <p className="text-5xl pl-10 mt-16 mb-7 text-[#7E84F7] font-bold">
               Gigs
             </p>
+            <div className="md:flex gap-10 justify-around">
+              <div className="text-2xl md:w-1/2">
+                This calendar will automatically update as more events are
+                scheduled.
+              </div>
+              <div className="p-1 md:p-5 bg-[#e3e9ff] rounded-md md:rounded-xl w-screen md:w-1/2 h-[50vh]">
+                <iframe
+                  src="https://calendar.google.com/calendar/embed?src=en.usa%23holiday%40group.v.calendar.google.com&ctz=America%2FNew_York"
+                  className="w-full h-full"
+                />
+              </div>
+            </div>
           </div>
         </div>
         <Footer />

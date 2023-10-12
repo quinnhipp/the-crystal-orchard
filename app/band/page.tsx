@@ -8,12 +8,12 @@ import Footer from "../components/footer";
 
 const Band = () => {
   return (
-    <div>
-      <div className="h-auto md:h-screen w-screen flex flex-col items-center justify-between z-0">
-        <div>
+    <div className="md:w-[99vw] overflow-x-hidden">
+      <div className="h-auto md:[h-screen] w-screen flex flex-col items-center justify-between z-0">
+        <div className="border-b-8 mb-10">
           <Navbar activePage="The Band" />
           <div className="flex z-10 justify-center items-center flex-col mt-3 md:mt-8 mb-10">
-            <Image src={guitar} alt="" className="w-3/4 mt-8 mb-8" />
+            <Image src={guitar} alt="" className="w-3/4 md:w-1/3 mt-8 mb-8" />
           </div>
           <div className="m-5 font-sans">
             <p className="text-5xl pl-10 mb-7 text-[#7E84F7] font-bold">
