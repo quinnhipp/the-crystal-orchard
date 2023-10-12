@@ -19,7 +19,7 @@ const Footer = () => {
         <div className="flex gap-48">
           <div className="flex-col gap-3 flex">
             <span className="text-[#7E84F7]">Contact Us</span>
-            <p>Email: blah blah blah</p>
+            <p>Email: brendanhipp1223@gmail.com</p>
           </div>
         </div>
       </div>
@@ -36,7 +36,7 @@ const Footer = () => {
         </div>
         <div className="flex flex-col gap-3 md:hidden">
           <span className="text-[#7E84F7]">Contact Us</span>
-          <p>Email: blah blah blah</p>
+          <p>Email: brendanhipp1223@gmail.com</p>
         </div>
       </div>
     </div>

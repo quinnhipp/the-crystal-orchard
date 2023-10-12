@@ -7,6 +7,7 @@ import Link from "next/link";
 const Listen = () => {
   return (
     <div>
+      <title>Crystal Orchard - Listen</title>
       <div className="h-auto md:h-screen w-screen flex flex-col items-center justify-between z-0">
         <div>
           <Navbar activePage="Listen" />

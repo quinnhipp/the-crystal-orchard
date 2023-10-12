@@ -9,6 +9,7 @@ import Footer from "../components/footer";
 const Home = () => {
   return (
     <div>
+      <title>Crystal Orchard - Home</title>
       <div className="h-auto md:h-screen w-screen flex flex-col items-center justify-between z-0">
         <Navbar activePage="Home" />
         <div className="flex bg-transparent border-white md:border-8 border-t-8 border-b-8 z-10 w-full md:w-3/5 h-full justify-center items-center flex-col mt-3 md:mt-8 mb-10">

@@ -9,6 +9,7 @@ import Footer from "../components/footer";
 const Band = () => {
   return (
     <div className="md:w-[99vw] overflow-x-hidden">
+      <title>Crystal Orchard - Band</title>
       <div className="h-auto md:[h-screen] w-screen flex flex-col items-center justify-between z-0">
         <div className="border-b-8 mb-10">
           <Navbar activePage="The Band" />
