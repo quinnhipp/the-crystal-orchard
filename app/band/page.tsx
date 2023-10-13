@@ -17,7 +17,7 @@ const Band = () => {
             <Image src={guitar} alt="" className="w-3/4 md:w-1/3 mt-8 mb-8" />
           </div>
           <div className="m-5 font-sans">
-            <p className="text-5xl pl-10 mb-7 text-[#7E84F7] font-bold">
+            <p className="text-5xl ml-10 mb-7 w-fit text-[#7E84F7] font-bold bg-gradient-to-tr from-[#7E84F7] to-[#6FF78B] bg-clip-text text-transparent">
               The Band
             </p>
             <div className="md:flex gap-8 justify-between">

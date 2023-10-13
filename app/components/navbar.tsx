@@ -10,7 +10,7 @@ const Navbar = ({ activePage }: { activePage: string }) => {
         <li>
           <Link
             href="/"
-            className={activePage === "Home" ? "text-blue-400" : "text-white"}
+            className={activePage === "Home" ? "text-[#6FF78B]" : "text-white"}
           >
             <div>Home</div>
           </Link>
@@ -19,7 +19,7 @@ const Navbar = ({ activePage }: { activePage: string }) => {
           <Link
             href="/band"
             className={
-              activePage === "The Band" ? "text-blue-400" : "text-white"
+              activePage === "The Band" ? "text-[#6FF78B]" : "text-white"
             }
           >
             <div>The Band</div>
@@ -28,7 +28,9 @@ const Navbar = ({ activePage }: { activePage: string }) => {
         <li>
           <Link
             href="/listen"
-            className={activePage === "Listen" ? "text-blue-400" : "text-white"}
+            className={
+              activePage === "Listen" ? "text-[#6FF78B]" : "text-white"
+            }
           >
             <div>Listen</div>
           </Link>
@@ -36,7 +38,7 @@ const Navbar = ({ activePage }: { activePage: string }) => {
         <li>
           <Link
             href="/gigs"
-            className={activePage === "Gigs" ? "text-blue-400" : "text-white"}
+            className={activePage === "Gigs" ? "text-[#6FF78B]" : "text-white"}
           >
             <div>Gigs</div>
           </Link>
@@ -45,7 +47,7 @@ const Navbar = ({ activePage }: { activePage: string }) => {
           <Link
             href="/gallery"
             className={
-              activePage === "Gallery" ? "text-blue-400" : "text-white"
+              activePage === "Gallery" ? "text-[#6FF78B]" : "text-white"
             }
           >
             <div>Gallery</div>

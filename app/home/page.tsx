@@ -14,7 +14,7 @@ const Home = () => {
         <Navbar activePage="Home" />
         <div className="flex bg-transparent border-white md:border-8 border-t-8 border-b-8 z-10 w-full md:w-3/5 h-full justify-center items-center flex-col mt-3 md:mt-8 mb-10">
           <Image src={logo} alt="" className="" />
-          <div className="border-white border-2 p-2 mb-5 text-[#7E84F7]">
+          <div className="border-white border-2 p-2 mb-5 bg-gradient-to-tr from-[#7E84F7] to-[#6FF78B] bg-clip-text text-transparent">
             LISTEN TO OUR MUSIC
           </div>
         </div>

@@ -12,7 +12,7 @@ const Gigs = () => {
         <div className="mb-10">
           <Navbar activePage="Gigs" />
           <div className="font-sans">
-            <p className="text-5xl pl-10 mt-16 mb-7 text-[#7E84F7] font-bold">
+            <p className="text-5xl ml-10 mb-7 w-fit pb-2 text-[#7E84F7] font-bold bg-gradient-to-tr from-[#7E84F7] to-[#6FF78B] bg-clip-text text-transparent">
               Gigs
             </p>
             <div className="md:flex gap-10 justify-around">
