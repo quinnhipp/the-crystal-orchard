@@ -38,6 +38,9 @@ const Footer = () => {
           <span className="text-[#7E84F7]">Contact Us</span>
           <p>Email: brendanhipp1223@gmail.com</p>
         </div>
+        <div className="text-sm justify-center flex font-bold bg-gradient-to-tr from-[#FF5F6D] to-[#FFC371] bg-clip-text text-transparent animate-gradient-xy">
+          POWERED BY: QUINN HIPP
+        </div>
       </div>
     </div>
   );
