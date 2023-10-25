@@ -23,6 +23,11 @@ const Footer = () => {
           </div>
         </div>
       </div>
+      <div className="hidden md:flex mt-24 pb-5 text-sm justify-center font-bold bg-gradient-to-tr from-[#FF5F6D] to-[#FFC371] bg-clip-text text-transparent animate-gradient-xy">
+        <a href="https://www.qhipp.dev/" target="_blank">
+          POWERED BY: QUINN HIPP
+        </a>
+      </div>
       {/* Mobile Footer */}
       <div className="md:hidden w-5/6 mb-16 mx-auto">
         <div className="flex flex-col gap-3 md:hidden mb-10">
@@ -38,8 +43,10 @@ const Footer = () => {
           <span className="text-[#7E84F7]">Contact Us</span>
           <p>Email: brendanhipp1223@gmail.com</p>
         </div>
-        <div className="text-sm justify-center flex font-bold bg-gradient-to-tr from-[#FF5F6D] to-[#FFC371] bg-clip-text text-transparent animate-gradient-xy">
-          POWERED BY: QUINN HIPP
+        <div className="mt-24 text-sm justify-center flex font-bold bg-gradient-to-tr from-[#FF5F6D] to-[#FFC371] bg-clip-text text-transparent animate-gradient-xy">
+          <a href="https://www.qhipp.dev/" target="_blank">
+            POWERED BY: QUINN HIPP
+          </a>
         </div>
       </div>
     </div>

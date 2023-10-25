@@ -6,7 +6,7 @@ import Link from "next/link";
 
 const Gigs = () => {
   return (
-    <div>
+    <div className="md:w-[98vw] overflow-x-hidden">
       <title>Crystal Orchard - Gigs</title>
       <div className="h-auto md:h-screen w-screen flex flex-col items-center justify-between z-0">
         <div className="mb-10">
